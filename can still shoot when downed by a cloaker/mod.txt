@@ -1,0 +1,16 @@
+{
+  	"name" : "shoot when downed by a taser",
+    	"description" : "it does what it says in the title.",
+    	"author" : "Mongal"
+	"contact" : "Mongal",
+	"version" : "0.0.1",
+        "color" : "255 154 0",
+	"hooks" : [
+    	{ "hook_id" : "lib/units/beings/player/PlayerMovement", "script_path" : "tweak.lua" }
+
+   
+
+
+]
+}
+
